@@ -3,7 +3,7 @@ var recipes = {};
 function updateObjectWithKeyAndValue(object, key, value){
   var obj = object.slice();
   obj[key]=value;
-  return object;
+  return obj;
 }
 
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
